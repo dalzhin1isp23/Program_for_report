@@ -1,0 +1,254 @@
+{
+  "as_of": "2026-11-10",
+  "allocation": "fifo",
+  "money": "строки, рубли, ровно 2 знака, разделитель точка",
+  "contracts": [
+    {
+      "contract_id": "D-1",
+      "contractor": "Студия «Свет»",
+      "amount": "600000.00",
+      "works_price": "600000.00",
+      "active_price": "500000.00",
+      "gross_paid": "365000.00",
+      "refunded": "50000.00",
+      "paid": "315000.00",
+      "queued": "150000.00",
+      "allocated": "315000.00",
+      "unallocated": "0.00",
+      "remaining_by_amount": "285000.00",
+      "remaining_by_works": "185000.00",
+      "overpaid": "0.00",
+      "delta": "100000.00",
+      "works": [
+        {
+          "work_id": "W-11",
+          "title": "Съёмка: весенняя коллекция",
+          "state": "done",
+          "status_export": "done",
+          "price": "100000.00",
+          "paid": "100000.00",
+          "remaining": "0.00",
+          "linked": "0.00",
+          "pool": "100000.00",
+          "queued": "0.00",
+          "refunded": "0.00",
+          "pieces": [
+            {
+              "payment_id": "P-1",
+              "kind": "pool",
+              "amount": "100000.00"
+            }
+          ]
+        },
+        {
+          "work_id": "W-12",
+          "title": "Съёмка: лето",
+          "state": "done",
+          "status_export": "done",
+          "price": "100000.00",
+          "paid": "100000.00",
+          "remaining": "0.00",
+          "linked": "0.00",
+          "pool": "100000.00",
+          "queued": "0.00",
+          "refunded": "0.00",
+          "pieces": [
+            {
+              "payment_id": "P-1",
+              "kind": "pool",
+              "amount": "100000.00"
+            }
+          ]
+        },
+        {
+          "work_id": "W-13",
+          "title": "Съёмка: аксессуары",
+          "state": "cancelled",
+          "status_export": "cancelled",
+          "price": "100000.00",
+          "paid": "0.00",
+          "remaining": "0.00",
+          "linked": "0.00",
+          "pool": "0.00",
+          "queued": "0.00",
+          "refunded": "0.00",
+          "pieces": []
+        },
+        {
+          "work_id": "W-14",
+          "title": "Съёмка: осень",
+          "state": "done",
+          "status_export": "done",
+          "price": "100000.00",
+          "paid": "100000.00",
+          "remaining": "0.00",
+          "linked": "15000.00",
+          "pool": "85000.00",
+          "queued": "0.00",
+          "refunded": "0.00",
+          "pieces": [
+            {
+              "payment_id": "P-3",
+              "kind": "linked",
+              "amount": "15000.00"
+            },
+            {
+              "payment_id": "P-1",
+              "kind": "pool",
+              "amount": "85000.00"
+            }
+          ]
+        },
+        {
+          "work_id": "W-15",
+          "title": "Съёмка: зима",
+          "state": "planned",
+          "status_export": "planned",
+          "price": "100000.00",
+          "paid": "15000.00",
+          "remaining": "85000.00",
+          "linked": "0.00",
+          "pool": "15000.00",
+          "queued": "0.00",
+          "refunded": "0.00",
+          "pieces": [
+            {
+              "payment_id": "P-1",
+              "kind": "pool",
+              "amount": "15000.00"
+            }
+          ]
+        },
+        {
+          "work_id": "W-16",
+          "title": "Съёмка: новогодняя",
+          "state": "planned",
+          "status_export": "planned",
+          "price": "100000.00",
+          "paid": "0.00",
+          "remaining": "100000.00",
+          "linked": "0.00",
+          "pool": "0.00",
+          "queued": "0.00",
+          "refunded": "0.00",
+          "pieces": []
+        }
+      ]
+    },
+    {
+      "contract_id": "D-2",
+      "contractor": "Иван Петров, дизайнер",
+      "amount": "90000.00",
+      "works_price": "90000.00",
+      "active_price": "90000.00",
+      "gross_paid": "75000.00",
+      "refunded": "0.00",
+      "paid": "75000.00",
+      "queued": "0.00",
+      "allocated": "75000.00",
+      "unallocated": "0.00",
+      "remaining_by_amount": "15000.00",
+      "remaining_by_works": "15000.00",
+      "overpaid": "0.00",
+      "delta": "0.00",
+      "works": [
+        {
+          "work_id": "W-21",
+          "title": "Логотип",
+          "state": "done",
+          "status_export": "done",
+          "price": "20000.00",
+          "paid": "20000.00",
+          "remaining": "0.00",
+          "linked": "0.00",
+          "pool": "20000.00",
+          "queued": "0.00",
+          "refunded": "0.00",
+          "pieces": [
+            {
+              "payment_id": "P-5",
+              "kind": "pool",
+              "amount": "20000.00"
+            }
+          ]
+        },
+        {
+          "work_id": "W-22",
+          "title": "Фирменный стиль",
+          "state": "done",
+          "status_export": "done",
+          "price": "30000.00",
+          "paid": "30000.00",
+          "remaining": "0.00",
+          "linked": "0.00",
+          "pool": "30000.00",
+          "queued": "0.00",
+          "refunded": "0.00",
+          "pieces": [
+            {
+              "payment_id": "P-5",
+              "kind": "pool",
+              "amount": "25000.00"
+            },
+            {
+              "payment_id": "P-6",
+              "kind": "pool",
+              "amount": "5000.00"
+            }
+          ]
+        },
+        {
+          "work_id": "W-23",
+          "title": "Упаковка",
+          "state": "planned",
+          "status_export": "done",
+          "price": "40000.00",
+          "paid": "25000.00",
+          "remaining": "15000.00",
+          "linked": "0.00",
+          "pool": "25000.00",
+          "queued": "0.00",
+          "refunded": "0.00",
+          "pieces": [
+            {
+              "payment_id": "P-6",
+              "kind": "pool",
+              "amount": "20000.00"
+            },
+            {
+              "payment_id": "P-7",
+              "kind": "pool",
+              "amount": "5000.00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "severity": "info",
+      "source": "payments.csv:3",
+      "code": "refunded",
+      "message": "P-2: возвращён 10.09.2026 — 50 000,00 не входят в «выплачено»"
+    },
+    {
+      "severity": "warning",
+      "source": "contracts.csv:2",
+      "code": "cancelled_in_amount",
+      "message": "D-1: отменённые работы на 100 000,00 входят в сумму договора; остаток по договору больше остатка по работам на 100 000,00 — нужно допсоглашение"
+    },
+    {
+      "severity": "info",
+      "source": "works.csv:10",
+      "code": "status_asof",
+      "message": "W-23: в выгрузке done, на 10.11.2026 — planned"
+    },
+    {
+      "severity": "info",
+      "source": "payments.csv:9",
+      "code": "after_date",
+      "message": "P-8: оплата 12.11.2026 позже даты отчёта — 20 000,00 не учтены"
+    }
+  ]
+}

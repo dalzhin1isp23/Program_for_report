@@ -1,0 +1,5 @@
+﻿severity;source;code;message
+info;payments.csv:3;refunded;P-2: возвращён 10.09.2026 — 50 000,00 не входят в «выплачено»
+warning;contracts.csv:2;cancelled_in_amount;"D-1: отменённые работы на 100 000,00 входят в сумму договора; остаток по договору больше остатка по работам на 100 000,00 — нужно допсоглашение"
+info;works.csv:10;status_asof;W-23: в выгрузке done, на 10.11.2026 — planned
+info;payments.csv:9;after_date;P-8: оплата 12.11.2026 позже даты отчёта — 20 000,00 не учтены
